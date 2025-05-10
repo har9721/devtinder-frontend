@@ -13,3 +13,6 @@
 - cors error in backend using add middleware with configurstion of origins
 - useDispatch() is a hooks which is come from reudx package
 - useSelector() this is a hooks which is used to subscribed the store
+- Why API call gets hit twicely?
+    => Because in development we are using the StrictMode that's why 2 API calls are executing it do this just to cross check component is rendering properly or not. But the same code will run properly it only call 1 API call without changing the code.
+- Link to -tag comes from the redux dom it's just like a anchor tag of html. It's a good to way handling the routing
